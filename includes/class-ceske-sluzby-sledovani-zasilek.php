@@ -22,7 +22,7 @@ function ceske_sluzby_sledovani_zasilek_dostupni_dopravci( $lang ) {
     ),
     'SPOST' => array(
       'nazev' => 'Slovenská pošta',
-      'url' => 'http://tandt.posta.sk/zasielky/%ID%',
+      'url' => 'https://tandt.posta.sk/zasielky/%ID%',
       'lang' => 'SK'
     ),
     'Zasilkovna' => array(
@@ -46,14 +46,14 @@ function ceske_sluzby_sledovani_zasilek_dostupni_dopravci( $lang ) {
     ),
     'PPL' => array(
       'nazev' => 'PPL',
-      'url' => 'http://www.ppl.cz/main2.aspx?cls=Package&idSearch=%ID%',
+      'url' => 'https://www.ppl.cz/main2.aspx?cls=Package&idSearch=%ID%',
       'lang' => 'CZ'
     ),
     'DHL' => array(
       'nazev' => 'DHL',
       'lang' => array(
-        'CZ' => 'http://www.dhl.cz/content/cz/cs/express/sledovani_zasilek.shtml?brand=DHL&AWB=%ID%',
-        'SK' => 'http://www.dhl.sk/content/sk/sk/express/sledovanie_zasielky.shtml?brand=DHL&AWB=%ID%'
+        'CZ' => 'https://mydhl.express.dhl/cz/cs/tracking.html#/results?id=%ID%',
+        'SK' => 'https://mydhl.express.dhl/sk/sk/tracking.html#/results?id=%ID%'
       )
     ),
     'GEIS' => array(
